@@ -1,20 +1,20 @@
 # 本仓库的目的
 
-1.把开源机械臂dummy如何接入moveit2相关代码和模型开源出来，解决这块资料缺乏的痛点
-2.持续基于moveit2上添加机械臂的相关上层应用
+1.把开源机械臂dummy如何接入moveit2相关代码和模型开源出来，解决这块资料缺乏的痛点 <br>
+2.持续基于moveit2上添加机械臂的相关上层应用 <br>
 
 # 已发布内容
 
-1.dummy-ros2_description：使用fusion360导出的URDF，导出脚本可以看我另外一个项目
-2.dummy_moveit_config：通过MoveIt Setup Assistant配置输出的相关move group配置，具体参考木子的项目和moveit2官方文档
-3.dummy_controller：打通moveit2实现了与真实机械臂dummy的上下位机调用，结合了dummy项目自带的ref_tool的调用
-4.dummy_server：实现了通过python代码调用moveit2的行动规划相关功能的调用
+1.dummy-ros2_description：使用fusion360导出的URDF，导出脚本可以看我另外一个项目 <br>
+2.dummy_moveit_config：通过MoveIt Setup Assistant配置输出的相关move group配置，具体参考木子的项目和moveit2官方文档 <br>
+3.dummy_controller：打通moveit2实现了与真实机械臂dummy的上下位机调用，结合了dummy项目自带的ref_tool的调用 <br>
+4.dummy_server：实现了通过python代码调用moveit2的行动规划相关功能的调用 <br>
 
 # 准备更新的内容
 
-1.planning scene的障碍物设置
-2.dummy与d435的手眼标定过程
-3.夹爪的添加与控制
+1.planning scene的障碍物设置 <br>
+2.dummy与d435的手眼标定过程 <br>
+3.夹爪的添加与控制 <br>
 
 # 引用相关仓库
 
