@@ -1,0 +1,73 @@
+[0.014s] Invoking command in '/home/hata_ros/apps/dummy_ws/src/dummy_server/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hata_ros/apps/dummy_ws/install/dummy_controller:/home/hata_ros/apps/dummy_ws/install/dummy-ros2_description:/home/hata_ros/apps/moveit_ws/install/moveit_configs_utils:/home/hata_ros/apps/moveit_ws/install/launch_param_builder:/home/hata_ros/apps/dev_ws/install/learning_urdf:/home/hata_ros/apps/dev_ws/install/learning_topic:/home/hata_ros/apps/dev_ws/install/learning_tf:/home/hata_ros/apps/dev_ws/install/learning_service:/home/hata_ros/apps/dev_ws/install/learning_qos:/home/hata_ros/apps/dev_ws/install/learning_pkg_python:/home/hata_ros/apps/dev_ws/install/learning_parameter:/home/hata_ros/apps/dev_ws/install/learning_node:/home/hata_ros/apps/dev_ws/install/learning_launch:/home/hata_ros/apps/dev_ws/install/learning_action:/home/hata_ros/apps/dev_ws/install/learning_gazebo:/home/hata_ros/apps/dev_ws/install/learning_cv:/home/hata_ros/apps/dev_ws/install/d435:/opt/ros/humble /usr/bin/cmake --build /home/hata_ros/apps/dummy_ws/src/dummy_server/build/pymoveit2 -- -j4 -l4
+[0.062s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.210s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.368s] -- Configuring done
+[0.374s] -- Generating done
+[0.376s] -- Build files have been written to: /home/hata_ros/apps/dummy_ws/src/dummy_server/build/pymoveit2
+[0.431s] Built target ament_cmake_python_symlink_pymoveit2
+[0.667s] running egg_info
+[0.668s] writing pymoveit2.egg-info/PKG-INFO
+[0.668s] writing dependency_links to pymoveit2.egg-info/dependency_links.txt
+[0.668s] writing top-level names to pymoveit2.egg-info/top_level.txt
+[0.670s] reading manifest file 'pymoveit2.egg-info/SOURCES.txt'
+[0.670s] writing manifest file 'pymoveit2.egg-info/SOURCES.txt'
+[0.699s] Built target ament_cmake_python_build_pymoveit2_egg
+[0.706s] Invoked command in '/home/hata_ros/apps/dummy_ws/src/dummy_server/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hata_ros/apps/dummy_ws/install/dummy_controller:/home/hata_ros/apps/dummy_ws/install/dummy-ros2_description:/home/hata_ros/apps/moveit_ws/install/moveit_configs_utils:/home/hata_ros/apps/moveit_ws/install/launch_param_builder:/home/hata_ros/apps/dev_ws/install/learning_urdf:/home/hata_ros/apps/dev_ws/install/learning_topic:/home/hata_ros/apps/dev_ws/install/learning_tf:/home/hata_ros/apps/dev_ws/install/learning_service:/home/hata_ros/apps/dev_ws/install/learning_qos:/home/hata_ros/apps/dev_ws/install/learning_pkg_python:/home/hata_ros/apps/dev_ws/install/learning_parameter:/home/hata_ros/apps/dev_ws/install/learning_node:/home/hata_ros/apps/dev_ws/install/learning_launch:/home/hata_ros/apps/dev_ws/install/learning_action:/home/hata_ros/apps/dev_ws/install/learning_gazebo:/home/hata_ros/apps/dev_ws/install/learning_cv:/home/hata_ros/apps/dev_ws/install/d435:/opt/ros/humble /usr/bin/cmake --build /home/hata_ros/apps/dummy_ws/src/dummy_server/build/pymoveit2 -- -j4 -l4
+[0.721s] Invoking command in '/home/hata_ros/apps/dummy_ws/src/dummy_server/build/pymoveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hata_ros/apps/dummy_ws/install/dummy_controller:/home/hata_ros/apps/dummy_ws/install/dummy-ros2_description:/home/hata_ros/apps/moveit_ws/install/moveit_configs_utils:/home/hata_ros/apps/moveit_ws/install/launch_param_builder:/home/hata_ros/apps/dev_ws/install/learning_urdf:/home/hata_ros/apps/dev_ws/install/learning_topic:/home/hata_ros/apps/dev_ws/install/learning_tf:/home/hata_ros/apps/dev_ws/install/learning_service:/home/hata_ros/apps/dev_ws/install/learning_qos:/home/hata_ros/apps/dev_ws/install/learning_pkg_python:/home/hata_ros/apps/dev_ws/install/learning_parameter:/home/hata_ros/apps/dev_ws/install/learning_node:/home/hata_ros/apps/dev_ws/install/learning_launch:/home/hata_ros/apps/dev_ws/install/learning_action:/home/hata_ros/apps/dev_ws/install/learning_gazebo:/home/hata_ros/apps/dev_ws/install/learning_cv:/home/hata_ros/apps/dev_ws/install/d435:/opt/ros/humble /usr/bin/cmake --install /home/hata_ros/apps/dummy_ws/src/dummy_server/build/pymoveit2
+[0.729s] -- Install configuration: "Release"
+[0.730s] -- Execute custom install script
+[0.733s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/share/pymoveit2/environment/pythonpath.sh
+[0.733s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/share/pymoveit2/environment/pythonpath.dsv
+[0.737s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/local/lib/python3.10/dist-packages/pymoveit2-4.0.0-py3.10.egg-info/PKG-INFO
+[0.737s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/local/lib/python3.10/dist-packages/pymoveit2-4.0.0-py3.10.egg-info/SOURCES.txt
+[0.738s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/local/lib/python3.10/dist-packages/pymoveit2-4.0.0-py3.10.egg-info/dependency_links.txt
+[0.739s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/local/lib/python3.10/dist-packages/pymoveit2-4.0.0-py3.10.egg-info/top_level.txt
+[0.739s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/local/lib/python3.10/dist-packages/pymoveit2/__init__.py
+[0.740s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/local/lib/python3.10/dist-packages/pymoveit2/gripper_command.py
+[0.740s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/local/lib/python3.10/dist-packages/pymoveit2/gripper_interface.py
+[0.741s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/local/lib/python3.10/dist-packages/pymoveit2/moveit2.py
+[0.741s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/local/lib/python3.10/dist-packages/pymoveit2/moveit2_gripper.py
+[0.742s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/local/lib/python3.10/dist-packages/pymoveit2/moveit2_servo.py
+[0.743s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/local/lib/python3.10/dist-packages/pymoveit2/robots/__init__.py
+[0.743s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/local/lib/python3.10/dist-packages/pymoveit2/robots/crane_x7.py
+[0.743s] -- Symlinking: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/local/lib/python3.10/dist-packages/pymoveit2/robots/dummy.py
+[0.752s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/local/lib/python3.10/dist-packages/pymoveit2/robots/kinova.py
+[0.753s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/local/lib/python3.10/dist-packages/pymoveit2/robots/lbr.py
+[0.753s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/local/lib/python3.10/dist-packages/pymoveit2/robots/panda.py
+[0.755s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/local/lib/python3.10/dist-packages/pymoveit2/robots/phantomx_pincher.py
+[0.756s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/local/lib/python3.10/dist-packages/pymoveit2/robots/ur.py
+[0.756s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/local/lib/python3.10/dist-packages/pymoveit2/utils.py
+[0.756s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/lib/pymoveit2/ex_allow_collisions.py
+[0.757s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/lib/pymoveit2/ex_clear_planning_scene.py
+[0.757s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/lib/pymoveit2/ex_collision_mesh.py
+[0.757s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/lib/pymoveit2/ex_collision_primitive.py
+[0.758s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/lib/pymoveit2/ex_fk.py
+[0.758s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/lib/pymoveit2/ex_gripper.py
+[0.758s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/lib/pymoveit2/ex_ik.py
+[0.759s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/lib/pymoveit2/ex_joint_goal.py
+[0.760s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/lib/pymoveit2/ex_orientation_path_constraint.py
+[0.760s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/lib/pymoveit2/ex_pose_goal.py
+[0.760s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/lib/pymoveit2/ex_servo.py
+[0.760s] -- Symlinking: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/lib/pymoveit2/ex_collision_custom.py
+[0.773s] -- Symlinking: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/lib/pymoveit2/ex_pose_goal_custom.py
+[0.782s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/share/ament_index/resource_index/package_run_dependencies/pymoveit2
+[0.783s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/share/ament_index/resource_index/parent_prefix_path/pymoveit2
+[0.783s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/share/pymoveit2/environment/ament_prefix_path.sh
+[0.783s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/share/pymoveit2/environment/ament_prefix_path.dsv
+[0.783s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/share/pymoveit2/environment/path.sh
+[0.784s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/share/pymoveit2/environment/path.dsv
+[0.784s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/share/pymoveit2/local_setup.bash
+[0.785s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/share/pymoveit2/local_setup.sh
+[0.785s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/share/pymoveit2/local_setup.zsh
+[0.786s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/share/pymoveit2/local_setup.dsv
+[0.786s] -- Symlinking: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/share/pymoveit2/package.dsv
+[0.801s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/share/ament_index/resource_index/packages/pymoveit2
+[0.802s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/share/pymoveit2/cmake/pymoveit2Config.cmake
+[0.802s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/share/pymoveit2/cmake/pymoveit2Config-version.cmake
+[0.802s] -- Up-to-date symlink: /home/hata_ros/apps/dummy_ws/src/dummy_server/install/share/pymoveit2/package.xml
+[0.850s] Listing '/home/hata_ros/apps/dummy_ws/src/dummy_server/install/local/lib/python3.10/dist-packages/pymoveit2'...
+[0.850s] Compiling '/home/hata_ros/apps/dummy_ws/src/dummy_server/install/local/lib/python3.10/dist-packages/pymoveit2/__init__.py'...
+[0.850s] Listing '/home/hata_ros/apps/dummy_ws/src/dummy_server/install/local/lib/python3.10/dist-packages/pymoveit2/robots'...
+[0.850s] Compiling '/home/hata_ros/apps/dummy_ws/src/dummy_server/install/local/lib/python3.10/dist-packages/pymoveit2/robots/__init__.py'...
+[0.850s] Compiling '/home/hata_ros/apps/dummy_ws/src/dummy_server/install/local/lib/python3.10/dist-packages/pymoveit2/robots/dummy.py'...
+[0.855s] Invoked command in '/home/hata_ros/apps/dummy_ws/src/dummy_server/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hata_ros/apps/dummy_ws/install/dummy_controller:/home/hata_ros/apps/dummy_ws/install/dummy-ros2_description:/home/hata_ros/apps/moveit_ws/install/moveit_configs_utils:/home/hata_ros/apps/moveit_ws/install/launch_param_builder:/home/hata_ros/apps/dev_ws/install/learning_urdf:/home/hata_ros/apps/dev_ws/install/learning_topic:/home/hata_ros/apps/dev_ws/install/learning_tf:/home/hata_ros/apps/dev_ws/install/learning_service:/home/hata_ros/apps/dev_ws/install/learning_qos:/home/hata_ros/apps/dev_ws/install/learning_pkg_python:/home/hata_ros/apps/dev_ws/install/learning_parameter:/home/hata_ros/apps/dev_ws/install/learning_node:/home/hata_ros/apps/dev_ws/install/learning_launch:/home/hata_ros/apps/dev_ws/install/learning_action:/home/hata_ros/apps/dev_ws/install/learning_gazebo:/home/hata_ros/apps/dev_ws/install/learning_cv:/home/hata_ros/apps/dev_ws/install/d435:/opt/ros/humble /usr/bin/cmake --install /home/hata_ros/apps/dummy_ws/src/dummy_server/build/pymoveit2
