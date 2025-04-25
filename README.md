@@ -1,0 +1,2 @@
+# dummy_moveit_ws
+让所有人都可以让dummy机械臂跑在moveit2上
