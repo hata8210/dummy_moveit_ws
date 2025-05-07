@@ -9,6 +9,7 @@
 2.dummy_moveit_config：通过MoveIt Setup Assistant配置输出的相关move group配置，具体参考木子的项目和moveit2官方文档 <br>
 3.dummy_controller：打通moveit2实现了与真实机械臂dummy的上下位机调用，结合了dummy项目自带的ref_tool的调用 <br>
 4.dummy_server：实现了通过python代码调用moveit2的行动规划相关功能的调用 <br>
+5.fusion2urdf-ros2：为用fusion设计的模型提供一个导出urdf模型的脚本，并支持ros2和新版fusion <br>
 
 # 准备更新的内容
 
@@ -23,6 +24,8 @@
 > 木子改良版本的机械臂：https://gitee.com/switchpi/dummy.git [here](https://gitee.com/switchpi/dummy.git)!
 
 > AndrejOrsula开源的调用moveit2的python工具库：https://github.com/AndrejOrsula/pymoveit2.git [here](https://github.com/AndrejOrsula/pymoveit2.git)!
+
+> syuntoku14开源的fusion导出urdf工具：https://github.com/syuntoku14/fusion2urdf [here](https://github.com/syuntoku14/fusion2urdf)!
 
 # 声明
 
