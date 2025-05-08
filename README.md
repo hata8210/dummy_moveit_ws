@@ -5,11 +5,11 @@
 
 # 已发布内容
 
-1.dummy-ros2_description：使用fusion360导出的URDF，导出脚本可以看我另外一个项目 <br>
-2.dummy_moveit_config：通过MoveIt Setup Assistant配置输出的相关move group配置，具体参考木子的项目和moveit2官方文档 <br>
-3.dummy_controller：打通moveit2实现了与真实机械臂dummy的上下位机调用，结合了dummy项目自带的ref_tool的调用 <br>
-4.dummy_server：实现了通过python代码调用moveit2的行动规划相关功能的调用 <br>
-5.fusion2urdf-ros2：为用fusion设计的模型提供一个导出urdf模型的脚本，并支持ros2和新版fusion <br>
+1.fusion2urdf-ros2：为fusion设计的模型提供导出urdf模型的脚本，支持ros2和新版fusion360 <br>
+2.dummy-ros2_description：使用fusion360导出的URDF，用于moveit2的setup，导出脚本见fusion2urdf-ros2目录 <br>
+3.dummy_moveit_config：通过MoveIt Setup Assistant配置输出的相关move group配置，具体参考木子的项目和moveit2官方文档 <br>
+4.dummy_controller：打通moveit2实现与真实机械臂dummy的上下位机调用，结合dummy项目自带的ref_tool的调用 <br>
+5.dummy_server：实现了通过python代码调用moveit2的行动规划相关功能的调用 <br>
 
 # 准备更新的内容
 
