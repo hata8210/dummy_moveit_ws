@@ -11,7 +11,7 @@ class JointTrajectoryActionServer(Node):
     
     my_driver = None
     rad_volumn_diff = np.array([0,0,1.57079,0,0,0])
-    rad_direct_diff = np.array([1,1,1,1,-1,1])
+    rad_direct_diff = np.array([1,1,1,1,-1,-1])
     pai = 3.1415926
     ready_rad = np.array([0,0,0,0,0,0])
     home_rad = np.array([0,-1.3089,1.5707,0,0,0])

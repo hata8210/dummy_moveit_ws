@@ -10,6 +10,7 @@ ament_python_install_package(pymoveit2)
 
 # Install examples
 set(EXAMPLES_DIR examples)
+set(SERVER_DIR server)
 install(PROGRAMS
     ${EXAMPLES_DIR}/ex_allow_collisions.py
     ${EXAMPLES_DIR}/ex_clear_planning_scene.py
@@ -24,6 +25,8 @@ install(PROGRAMS
     ${EXAMPLES_DIR}/ex_servo.py
     ${EXAMPLES_DIR}/ex_collision_custom.py
     ${EXAMPLES_DIR}/ex_pose_goal_custom.py
+    ${SERVER_DIR}/pose_goal_server.py
+    ${SERVER_DIR}/demo_tamplate.py
     DESTINATION lib/${PROJECT_NAME}
 )
 
