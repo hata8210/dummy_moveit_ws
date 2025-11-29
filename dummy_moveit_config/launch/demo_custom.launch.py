@@ -116,7 +116,7 @@ def generate_demo_custom_launch(moveit_config, launch_package_path=None):
     ld.add_action(
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(
-                str(launch_package_path / "launch/spawn_controllers.launch.py")
+                str(launch_package_path / "launch/spawn_controllers_no_jsb.launch.py")
             ),
         )
     )
