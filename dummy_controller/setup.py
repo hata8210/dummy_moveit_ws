@@ -23,6 +23,7 @@ setup(
     entry_points={
         'console_scripts': [
             'dummy_arm_controller = dummy_controller.dummy_arm_controller:main',
+            'dummy_servo_hardware = dummy_controller.dummy_servo_hardware:main',
             'moveit_server = dummy_controller.moveit_server:main',
             'add_collision_object = dummy_controller.add_collision_object:main',
             'dummy_arm_space = dummy_controller.dummy_arm_space:main'

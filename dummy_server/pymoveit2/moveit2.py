@@ -1,5 +1,6 @@
 import copy
 import threading
+import time
 from enum import Enum
 from typing import Any, List, Optional, Tuple, Union
 
@@ -530,7 +531,7 @@ class MoveIt2:
         # 100ms sleep
         rate = self._node.create_rate(10)
         while not future.done():
-            rclpy.spin_once(self._node, timeout_sec=1.0)
+            time.sleep(0.01)
 
         return self.get_trajectory(
             future,
@@ -642,7 +643,7 @@ class MoveIt2:
                 start_joint_state = self.__joint_state
                 break
             else:
-                rclpy.spin_once(self._node, timeout_sec=1.0)
+                time.sleep(0.01)
         self._node._logger.info(message="Joint states are available now")
 
         # Plan trajectory asynchronously by service call
@@ -750,7 +751,7 @@ class MoveIt2:
             return False
 
         while self.__is_motion_requested or self.__is_executing:
-            rclpy.spin_once(self._node, timeout_sec=1.0)
+            time.sleep(0.01)
 
         return self.motion_suceeded
 
@@ -1196,7 +1197,7 @@ class MoveIt2:
         # 100ms sleep
         rate = self._node.create_rate(10)
         while not future.done():
-            rclpy.spin_once(self._node, timeout_sec=1.0)
+            time.sleep(0.01)
 
         return self.get_compute_fk_result(future, fk_link_names=fk_link_names)
 
@@ -1290,7 +1291,7 @@ class MoveIt2:
         # 10ms sleep
         rate = self._node.create_rate(10)
         while not future.done():
-            rclpy.spin_once(self._node, timeout_sec=1.0)
+            time.sleep(0.01)
 
         return self.get_compute_ik_result(future)
 
@@ -2258,9 +2259,9 @@ class MoveIt2:
         # self.__compute_ik_req.ik_request.robot_state.joint_state = "Set during request"
         # self.__compute_ik_req.ik_request.robot_state.multi_dof_ = "Ignored"
         # self.__compute_ik_req.ik_request.robot_state.attached_collision_objects = "Ignored"
-        self.__compute_ik_req.ik_request.robot_state.is_diff = False
+        self.__compute_ik_req.ik_request.robot_state.is_diff = True
         # self.__compute_ik_req.ik_request.constraints = "Set during request OR Ignored"
-        self.__compute_ik_req.ik_request.avoid_collisions = True
+        self.__compute_ik_req.ik_request.avoid_collisions = False
         # self.__compute_ik_req.ik_request.ik_link_name = "Ignored"
         self.__compute_ik_req.ik_request.pose_stamped.header.frame_id = (
             self.__base_link_name
@@ -2269,8 +2270,8 @@ class MoveIt2:
         # self.__compute_ik_req.ik_request.pose_stamped.pose = "Set during request"
         # self.__compute_ik_req.ik_request.ik_link_names = "Ignored"
         # self.__compute_ik_req.ik_request.pose_stamped_vector = "Ignored"
-        # self.__compute_ik_req.ik_request.timeout.sec = "Ignored"
-        # self.__compute_ik_req.ik_request.timeout.nanosec = "Ignored"
+        self.__compute_ik_req.ik_request.timeout.sec = 1
+        self.__compute_ik_req.ik_request.timeout.nanosec = 0
 
     @property
     def planning_scene(self) -> Optional[PlanningScene]:

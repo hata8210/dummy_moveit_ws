@@ -62,12 +62,15 @@ class ArucoDetector(Node):
             orien_y = rvec[0][0][1]
             orien_z = rvec[0][0][2]
             # compare result between two function
+            self.get_logger().info('check,estimatePoseSingleMarkers.pos_x:'+str(tvec[0][0][0]))
+            self.get_logger().info('check,estimatePoseSingleMarkers.pos_y:'+str(tvec[0][0][1]))
+            self.get_logger().info('check,estimatePoseSingleMarkers.pos_z:'+str(tvec[0][0][2]))
             #self.get_logger().info('check,my_estimate_pose_single_markers.pos_x:'+tvec[0][0][0]+'=='+tvec_m[0][0][0])
-            #self.get_logger().info('check,my_estimate_pose_single_markers.pos_y:'+tvec[0][0][0]+'=='+tvec_m[0][0][0])
-            #self.get_logger().info('check,my_estimate_pose_single_markers.pos_z:'+tvec[0][0][0]+'=='+tvec_m[0][0][0])
+            #self.get_logger().info('check,my_estimate_pose_single_markers.pos_y:'+tvec[0][0][1]+'=='+tvec_m[0][0][1])
+            #self.get_logger().info('check,my_estimate_pose_single_markers.pos_z:'+tvec[0][0][2]+'=='+tvec_m[0][0][2])
             #self.get_logger().info('check,my_estimate_pose_single_markers.orien_x:'+tvec[0][0][0]+'=='+tvec_m[0][0][0])
-            #self.get_logger().info('check,my_estimate_pose_single_markers.orien_y:'+tvec[0][0][0]+'=='+tvec_m[0][0][0])
-            #self.get_logger().info('check,my_estimate_pose_single_markers.orien_z:'+tvec[0][0][0]+'=='+tvec_m[0][0][0])
+            #self.get_logger().info('check,my_estimate_pose_single_markers.orien_y:'+tvec[0][0][1]+'=='+tvec_m[0][0][1])
+            #self.get_logger().info('check,my_estimate_pose_single_markers.orien_z:'+tvec[0][0][2]+'=='+tvec_m[0][0][2])
             
             # set camera_color_optical_frame pose
             pose_in_optical = PoseStamped()
@@ -95,7 +98,7 @@ class ArucoDetector(Node):
                 self.get_logger().warn("TF from camera_color_optical_frame to link6_1_1 or base_link not available yet")
             pose_in_tool = self.transform_pose(pose_in_optical, transform)
             pose_in_world = self.transform_pose(pose_in_optical, transform_world)
-            self.get_logger().info('okok,now pose_in_tool frame_id:'+pose_in_tool.header.frame_id+', pose_in_world frame_id:'+pose_in_world.header.frame_id)
+            # self.get_logger().info('okok,now pose_in_tool frame_id:'+pose_in_tool.header.frame_id+', pose_in_world frame_id:'+pose_in_world.header.frame_id)
 
             # save pose in cache
             #self.pub.publish(pose_in_tool)
@@ -104,8 +107,9 @@ class ArucoDetector(Node):
             self.last_pose_tool = pose_in_tool
             self.last_pose_cam = pose_in_optical
             self.last_pose_world = pose_in_world
-        else:
-            self.get_logger().info('oh,can not detect any aruco')
+
+            self.get_logger().info('---------------------------------------')
+        # else: self.get_logger().info('oh,can not detect any aruco')
     
     def my_estimate_pose_single_markers(self,corners, marker_length, camera_matrix, dist_coeffs):
         """

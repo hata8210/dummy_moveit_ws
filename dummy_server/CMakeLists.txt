@@ -27,6 +27,8 @@ install(PROGRAMS
     ${EXAMPLES_DIR}/ex_pose_goal_custom.py
     ${SERVER_DIR}/pose_goal_server.py
     ${SERVER_DIR}/demo_tamplate.py
+    ${SERVER_DIR}/api_server.py
+    ${SERVER_DIR}/stream_api_server.py
     DESTINATION lib/${PROJECT_NAME}
 )
 

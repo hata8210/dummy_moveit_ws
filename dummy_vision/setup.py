@@ -20,9 +20,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'aruco_detector_node = dummy_controller.aruco_detector_node:main',
-            'aruco_tracker_node = dummy_controller.aruco_tracker_node:main',
-            'depth_detector_node = dummy_controller.depth_detector_node:main'
+            'aruco_detector_node = dummy_vision.aruco_detector_node:main',
+            'aruco_tracker_node = dummy_vision.aruco_tracker_node:main',
+            'depth_detector_node = dummy_vision.depth_detector_node:main'
         ],
     },
 )
