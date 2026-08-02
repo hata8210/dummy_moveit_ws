@@ -13,7 +13,7 @@
 
 # moveit流式控制dummy
 
-![Alt text](doc\moveit流式控制.jpg)
+![Alt text](doc/moveit流式控制.jpg)
 
 1.已经更新到项目中，可以通过moveit的servo流式发送工具坐标，moveit将实时逆解为J1到J6的关键坐标进行移动，过程非常丝滑，精度也非常不错 <br>
 2.改动涉及dummy_controller和dummy_server两模块 <br>
@@ -35,7 +35,7 @@ python src/dummy_server/server/stream_api_client_demo.py <br>
 
 # 使用Lerobot训练dummy
 
-![Alt text](doc\使用Lerobot训练dummy.jpg)
+![Alt text](doc/使用Lerobot训练dummy.jpg)
 
 兄弟们，这块可以关注我另外一个开源项目，感谢感谢！
 ### https://github.com/hata8210/lerobot
