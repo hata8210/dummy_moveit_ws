@@ -3,7 +3,7 @@ import sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(
     os.path.dirname(os.path.realpath(__file__)))),
-    "Firmware", "fibre", "python"))
+    "dummy_cli_tool"))
 
 # Syntactic sugar to make usage more intuative.
 # Try/pass used to break install-time dep issues
